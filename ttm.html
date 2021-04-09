@@ -94,18 +94,7 @@
                     "type": "hillshade"
                 }, 'waterway-river-canal-shadow');
 
-                map.addLayer({
-                    'id': 'fires',
-                    'type': 'fill',
-                    'source': {
-                        'type': 'geojson',
-                        'data': 'https://wildfire.cr.usgs.gov/arcgis/rest/services/geomac_perims/MapServer/4/query?where=incidentname+Like+%27%25Bull%25%27&returnGeometry=true&f=geojson'
-                    },
-                    'paint': {
-                        'fill-color': 'rgba(200,100,240,0.3)',
-                        'fill-outline-color': 'rgba(200,100,240,2)'
-                    }
-                })
+                
 
                 
             });
