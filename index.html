@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>I Pull The Sparks Full Time</title>
+	<meta charset="utf-8" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />
+</head>
+<body>
+	<div id="map" style="width: 600px; height: 400px"></div>
+	<p></p>
+	<hr>
+	<div id="links">
+		<a href="https://mail.google.com/" target="_blank">Mail</a>
+		<a href="https://workflowy.com" target="_blank">Workflowy</a>
+		<a href="https://www.ally.com" target="_blank">Ally</a>
+		<a href="http://iptsft.com/ttm.html" target="_blank">TTM</a>
+		<a href="https://www.fidelity.com" target="_blank">Fidelity</a>
+		<a href="https://drive.google.com/drive/my-drive" target="_blank">Drive</a>
+		<a href="http://www.nhl.com" target="_blank">NHL</a>
+		<a href="http://www.sportsnet.ca/hockey/nhl/" target="_blank">Sportsnet</a>
+		<a href="http://www.spl.org" target="_blank">Library</a>
+		<a href="http://www.amazon.com" target="_blank">Amazon</a>
+		<a href="http://www.skymaps.com/downloads.html" target="_blank">Evening Sky Map</a>
+	</div>
+	<script src='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
+	<link href='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css' rel='stylesheet' />
+	<script>
+		mapboxgl.accessToken = 'pk.eyJ1Ijoia296bGVza2kiLCJhIjoiY2loc2JhbXc3MDBwZXRza2hrMzV6MnVoOSJ9.vtzvi1t4tOBpF5Hh6g2PBw';
+		var map = new mapboxgl.Map({
+			container: 'map',
+			style: 'mapbox://styles/kozleski/cjhtqbm1n02v62snx6gz01fgc', // stylesheet location
+			center: [-122.406,47.369], // starting position [lng, lat]
+			zoom: 11.11 // starting zoom
+			});
+
+	</script>
+</body>
+</html>
